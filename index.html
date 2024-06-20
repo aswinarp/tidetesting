@@ -9,14 +9,11 @@
 <script>
 
 var tideloc = window.location.search.substring(1);
+if(tideloc == "ply"){
+<script src="https://www.tidetimes.org.uk/plymouth-devonport-tide-times.js" type="text/javascript">
+}
+else{
 
-switch (tideloc) {
-  case "ply":
-    <script src="https://www.tidetimes.org.uk/plymouth-devonport-tide-times.js" type="text/javascript">;
-    break;
-  case "tot":
-    <script src="https://www.tidetimes.org.uk/totnes-tide-times.js" type="text/javascript">;
-    break;
 }
 
 </script>
